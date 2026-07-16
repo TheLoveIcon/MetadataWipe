@@ -39,3 +39,13 @@ This Privacy Policy describes how `Metadata Wipe` (“the App”) handles inform
 ### Contact
 For questions or support:
 - Email: `theloveicon.apps@gmail.com`
+
+## What’s new / added
+
+- Local processing disclosure for image metadata removal
+- Explicit list of removable metadata: GPS, Date & Time, Camera, XMP, IPTC
+- Confirmation that the app does not upload image content or metadata off-device
+- Preference storage disclosure for DataStore settings and toggles
+- No analytics / tracking statement
+- User control statement: metadata is preserved unless removal toggles are enabled
+
