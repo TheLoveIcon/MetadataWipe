@@ -7,12 +7,14 @@ permalink: /privacy-policy/
 # Privacy Policy
 
 ### Introduction
-This Privacy Policy describes how `Metadata Wipe` (“the App”) handles information and access permissions. The App is published by The Love Icon and is designed to remove metadata from images and manage image files on the device.
+This Privacy Policy describes how `Metadata Wipe` handles information and access permissions. The App is published by The Love Icon and is designed to remove metadata from images and manage image files on the device.
 
 ### Information Collected
 - `MetadataWipe` does not collect, transmit, or store personal information to our servers.
 - The App processes image files locally on your device.
-- It does not use analytics, advertising IDs, or user tracking.
+- Image metadata removal, file selection, and save path settings are handled on-device.
+- The App does not use analytics or user tracking as part of its own codebase.
+- If ads are displayed, third-party ad providers such as AdMob may collect device or usage data under their own privacy policies.
 
 ### Device Access
 - The App may request access to selected images or folders via Android storage access mechanisms.
@@ -24,9 +26,17 @@ This Privacy Policy describes how `Metadata Wipe` (“the App”) handles inform
 - The App may read image metadata and write cleaned/copied image files.
 - No image content or metadata is uploaded off-device.
 
+### Preference Storage
+- The App stores user settings locally on the device using Android DataStore.
+- Stored preferences may include metadata removal toggles, default save path options, image selection mode, and sharing settings.
+- This data is only used to preserve your preferences and improve your app experience.
+
 ### Third-Party Services
 - The App does not share data with third parties.
 - No external servers or cloud services are used for image processing.
+- The App may display ads from services such as AdMob.
+- If ads are present, AdMob and other ad providers may collect information such as device identifiers, ad interactions, and usage data, subject to their own privacy policies.
+- The App itself does not provide personal information to ad providers beyond what Android and the ad SDK require for ad delivery.
 
 ### Security
 - The App relies on Android platform security and standard file permissions.
